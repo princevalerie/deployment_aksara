@@ -27,7 +27,7 @@ def preprocess_image(image):
     return np.expand_dims(image, axis=0)
 
 # URL dan path model
-model_url = 'https://github.com/princevalerie/deployment_aksara/blob/main/cnn_model.h5'
+model_url = 'https://github.com/princevalerie/deployment_aksara/blob/main/cnn_model.h5?raw=true'
 model_path = 'cnn_model.h5'
 
 # Mengunduh model jika belum ada
